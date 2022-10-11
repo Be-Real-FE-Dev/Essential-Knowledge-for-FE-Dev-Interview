@@ -36,6 +36,8 @@
 
 ## JavaScript
 
+- [Ajax](./contents/javascript/ajax.md)
+
 ## Web
 
 ## Network
