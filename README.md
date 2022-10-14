@@ -36,6 +36,9 @@
 
 ## JavaScript
 
+- [Execution-context](./contents/javascript/execution-context.md)
+- [Scope](./contenst/javascript/scope.md)
+- [Closure](./contents/javascript/closure.md)
 - [Ajax](./contents/javascript/ajax.md)
 
 ## Web
