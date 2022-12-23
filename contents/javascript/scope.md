@@ -1,4 +1,4 @@
-# Scope & Hoisting,
+# Scope
 
 ## 예상 질문
 
@@ -11,10 +11,6 @@
   |redeclaration|yes|no|no|
   |reassigned|yes|yes|no|
 
-- 호이스팅(Hoisting)이란?
-  소스코드 평가 시점에 선언문들이 scope 내의 최상단으로 끌어올려지는 현상.
-  **TDZ(Temporal Dead Zone)**: 일시적 사각 지대. 스코프의 시작 지점부터 초기화 시작 지점까지의 구간. (Reference Error)
-
 - 전역 scope를 사용했을 때 장단점.
   장점: 최상위 스코프이기 때문에 쉽게 모두 접근할 수 있다.
   단점:
@@ -26,7 +22,6 @@
 
 ## 참조 사항
 
-[TDZ](https://ui.toast.com/weekly-pick/ko_20191014)
 [전역변수 가비지 컬렉션](https://ko.javascript.info/garbage-collection)
 
 - 가비지 컬렉션 기준
