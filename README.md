@@ -41,6 +41,8 @@
 - [Ajax](./contents/javascript/ajax.md)
 - [this](./contents/javascript/this.md)
 - [hoisting](./contents/javascript/hoisting.md)
+- [evnet](./contents/javascript/event.md)
+- [Function](./contents/javascript/function.md)
 
 ## React
 
@@ -50,10 +52,12 @@
 ## Web
 
 - [browser rendering](./contents/web/browerRendering.md)
+- [REST API](./contents/web/restApi.md)
 
 ## CS
 
 - [CSR&SSR](./contents/cs/CSR%26SSR.md)
+- [Rest API](./contents/cs/REST_API.md)
 
 ## Network
 
