@@ -1,5 +1,13 @@
 # 실행컨택스트
 
+## scope와 실행컨텍스트
+
+실행컨텍스트의 내부 동작으로 상위 스코프에 접근할 수 있다.
+함수 객체 내부의 `[[ENVIRONMENT]]` 내부 슬롯으로 상위 스코프를 저장한다.
+함수가 실행되면 outer lexical environment reference가 참조하는 lexical environment를 통해 상위 스코프로 접근할 수 있다.
+
+이를 스코프 체인이라 한다.
+
 ## 예상 질문
 
 - event loop이란 무엇인가요?
@@ -36,9 +44,8 @@ call stack과 task queue에 관해 설명해주세요.
  
 ## 관련 내용
 
-- #hoisting
+- [#hoisting](./hoisting.md)
 - [#scope](./scope.md)
 - [#closure](./closure.md)
-- #IIFE
+- [#this](./this.md)
 - #evnet loop(call stack, task queue)
-- #this
