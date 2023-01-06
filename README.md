@@ -37,13 +37,14 @@
 
 - [hoisting](./contents/javascript/hoisting.md)
 - [Function](./contents/javascript/function.md)
+- [Class](./contents/javascript/class.md)
 - [Execution-context](./contents/javascript/execution-context.md)
 - [Scope](./contenst/javascript/scope.md)
 - [this](./contents/javascript/this.md)
 - [Closure](./contents/javascript/closure.md)
 - [Array](./contents/javascript/Array.md)
 - [Ajax](./contents/javascript/ajax.md)
-- [evnet](./contents/javascript/event.md)
+- [event](./contents/javascript/event.md)
 - [promise](./contents/javascript/promise.md)
 - [DOM](./contents/javascript/DOM.md)
 - [iterable](./contents/javascript/iterable.md)
@@ -60,6 +61,7 @@
 - [props](./contents/React/Props.md)
 - [keys](./contents/React/key.md)
 - [virtual DOM](./contents/React/virtualDOM.md)
+- [Life cycle](./contents/React/Lifecycle.md)
 
 ## Web
 
@@ -73,6 +75,7 @@
 - [Rest API](./contents/cs/REST_API.md)
 - [process & thread](./contents/cs/process_and_thread.md)
 - [HTTP & HTTPS](./contents/cs/HTTP.md)
+- [Cookie vs Session](./contents/cs/cookie_vs_session.md)
 
 ## Network
 
