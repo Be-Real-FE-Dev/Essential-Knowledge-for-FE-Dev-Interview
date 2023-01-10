@@ -68,6 +68,8 @@
 - [browser rendering](./contents/web/browerRendering.md)
 - [REST API](./contents/web/restApi.md)
 - [SEO](./contents/web/SEO.md)
+- [CORS](./contents/web/cors.md)
+- [webStorage](./contents/web/webStorage.md)
 
 ## CS
 
@@ -76,6 +78,7 @@
 - [process & thread](./contents/cs/process_and_thread.md)
 - [HTTP & HTTPS](./contents/cs/HTTP.md)
 - [Cookie vs Session](./contents/cs/cookie_vs_session.md)
+- [TCP&UDP](./contents/cs/TCP%26UDP.md)
 
 ## Network
 
@@ -89,6 +92,11 @@
 
 - [webpack & babel](./contents/etc/Webpack_Babel.md)
 - [business logic](./contents/etc/business_logic.md)
+- [React&Vue&Angular](./contents/etc/React%26Vue%26Angular.md)
+
+## optimization
+
+- [image](./contents/optimization/image.md)
 
 ## Reference
 

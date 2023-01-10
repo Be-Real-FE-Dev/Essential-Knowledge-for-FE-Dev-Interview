@@ -26,3 +26,46 @@ constructor는 메서드로 해석되는 것이 아니라 클래스가 평가되
 ## 정적 메서드
 
 static 키워드와 함께 정의되며 클래스의 인스턴스 없이 호출이 가능하며 클래스가 인스턴스화되면 호출할 수 없다.
+
+<br>
+
+## super
+
+- super 키워드는 부모 클래스를 참조(Reference)할 때 또는 부모 클래스의 constructor를 호출할 때 사용한다.
+
+- class 문법을 new연산자와 함께 호출 시 extends 키워드 여부로 [[constructorKind]] 내부슬롯에 Base, Derived 값을 설정하여 수퍼클래스인지 서브클래스인지를 판단한다.
+  서브클래스에서 super 메서드를 만나는 순간 [[HomeObject]]가 참조하고 있는 수퍼클래스의 contructor가 실행되어 인스턴스 초기화를 한다.
+  이후 super 메서드가 종료되고 제어흐름이 서브클래스로 돌아온다.
+
+```js
+// 부모 클래스
+class Circle {
+...
+}
+
+class Cylinder extends Circle {
+  constructor(radius, height) {
+    // ① super 메소드는 부모 클래스의 constructor를 호출하면서 인수를 전달한다.
+    super(radius);
+    this.height = height;
+  }
+
+  // 원통의 넓이: 부모 클래스의 getArea 메소드를 오버라이딩하였다.
+  getArea() {
+    // (원통의 높이 * 원의 둘레) + (2 * 원의 넓이)
+    // ② super 키워드는 부모 클래스(Base Class)에 대한 참조
+    return (this.height * super.getPerimeter()) + (2 * super.getArea());
+  }
+
+  // 원통의 부피
+  getVolume() {
+    // ② super 키워드는 부모 클래스(Base Class)에 대한 참조
+    return super.getArea() * this.height;
+  }
+}
+
+// 반지름이 2, 높이가 10인 원통
+const cylinder = new Cylinder(2, 10);
+```
+
+> https://poiemaweb.com/es6-class
