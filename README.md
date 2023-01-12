@@ -39,7 +39,7 @@
 - [Function](./contents/javascript/function.md)
 - [Class](./contents/javascript/class.md)
 - [Execution-context](./contents/javascript/execution-context.md)
-- [Scope](./contenst/javascript/scope.md)
+- [Scope](./contents/javascript/scope.md)
 - [this](./contents/javascript/this.md)
 - [Closure](./contents/javascript/closure.md)
 - [Array](./contents/javascript/Array.md)
@@ -62,6 +62,7 @@
 - [keys](./contents/React/key.md)
 - [virtual DOM](./contents/React/virtualDOM.md)
 - [Life cycle](./contents/React/Lifecycle.md)
+- [hooks](./contents/React/hooks.md)
 
 ## Web
 
@@ -70,6 +71,8 @@
 - [SEO](./contents/web/SEO.md)
 - [CORS](./contents/web/cors.md)
 - [webStorage](./contents/web/webStorage.md)
+- [WCAG](./contents/web/WCAG.md)
+- [JWT](./contents/web/JWT.md)
 
 ## CS
 
@@ -79,8 +82,6 @@
 - [HTTP & HTTPS](./contents/cs/HTTP.md)
 - [Cookie vs Session](./contents/cs/cookie_vs_session.md)
 - [TCP&UDP](./contents/cs/TCP%26UDP.md)
-
-## Network
 
 ## Data Structure
 
