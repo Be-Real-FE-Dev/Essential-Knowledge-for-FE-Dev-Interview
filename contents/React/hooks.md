@@ -20,6 +20,18 @@ const [state, setState] = useState(() => complicatedFunction());
 
 <br>
 
+### react v18에서 자동 배칭의 변경점
+
+Batching이란 React가 더 나은 성능을 위해 여러개의 state 업데이트를 한 번의 리렌더링으로 묶어서 진행하는 것을 말한다.
+
+리액트 v18 이전은 외부 소스(fetch, setTimeout 등)에 대해서는 일괄처리를 해주지 않았다. 그래서 성능 개선을 위하여 외부 소스 코드를 사용할때는 ReactDOM.unstable_batchedUpdates를 사용해줬었다.
+리액트 v18의 경우 ReactDOM.createRoot을 사용하게 되면 내부 소스, 외부 소스 Automatic Batching이 적용되어 있어 신경 쓰지 않아도 된다.
+
+자동배칭을 원하지 않는 경우 ReactDOM.flushSync()를 사용하여 제외할 수 있다.
+
+[Automatic batching for fewer renders in React 18](https://github.com/reactwg/react-18/discussions/21)
+<br>
+
 ## useMemo
 
 - 메모리제이션된 값을 반환.

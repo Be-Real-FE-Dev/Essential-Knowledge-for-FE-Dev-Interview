@@ -12,6 +12,7 @@
   - [HTML](#html)
   - [CSS](#css)
   - [JavaScript](#javascript)
+  - [TypeScript](#typescript)
   - [React](#react)
   - [Web](#web)
   - [Network](#network)
@@ -53,6 +54,11 @@
 - [Prototype](./contents/javascript/Prototype.md)
 - [First Class Object](./contents/javascript/FirstClassObject.md)
 - [Shallow copy vs Deep copy](./contents/javascript/shallowCopy_vs_DeepCopy.md)
+- [Strict](./contents/javascript/Strict.md)
+
+## TypeScript
+
+- [TypeScript](./contents/typescript/TypeScript.md)
 
 ## React
 
